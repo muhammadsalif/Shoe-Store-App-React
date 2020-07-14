@@ -43,8 +43,6 @@ const useStyles = makeStyles((theme) => ({
 export function Product() {
   const classes = useStyles();
 
-  console.log(Object.keys(Shoes));
-
   return (
     <div className={classes.root}>
       {/* <h1>Hello from product component</h1> */}
@@ -52,10 +50,7 @@ export function Product() {
       {Object.keys(Shoes).map((keyName, ind) => {
         return (
           <Paper className={classes.paper} elevation={3} key={ind}>
-            <Link
-              className={classes.paper}
-              to={`/products/${Shoes[keyName].name}`}
-            >
+            <Link className={classes.paper} to={`/product/${keyName}`}>
               <h2>{Shoes[keyName].name}</h2>
               <img className={classes.image} src={Shoes[keyName].img} alt="" />
             </Link>
