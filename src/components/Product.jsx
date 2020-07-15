@@ -7,7 +7,8 @@ import { Link } from "react-router-dom";
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
-    // flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
     flexWrap: "wrap",
     "& > *": {
       margin: theme.spacing(1),
@@ -35,7 +36,6 @@ const useStyles = makeStyles((theme) => ({
   },
   image: {
     width: "40%",
-    // backgroundColor: "red",
     color: "red",
   },
 }));
@@ -45,8 +45,6 @@ export function Product() {
 
   return (
     <div className={classes.root}>
-      {/* <h1>Hello from product component</h1> */}
-
       {Object.keys(Shoes).map((keyName, ind) => {
         return (
           <Paper className={classes.paper} elevation={3} key={ind}>

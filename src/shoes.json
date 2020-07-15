@@ -15,12 +15,17 @@
     "price": "$100.00"
   },
 
+  "jordan-mars-nike": {
+    "name": "NIKE SHOE",
+    "img": "https://www.freepngimg.com/thumb/shoes/28530-3-nike-shoes-transparent-thumb.png",
+    "price": "$100.00"
+  },
   "air-jordan-3-sneaker-red": {
     "name": "SNEAKER",
     "img": "https://www.freepngimg.com/thumb/shoes/27695-7-sneaker-transparent-thumb.png",
     "price": "$100.00"
   },
-  "jordan-mars-nike": {
+  "jordan-marss-nike": {
     "name": "NIKE SHOE",
     "img": "https://www.freepngimg.com/thumb/shoes/28530-3-nike-shoes-transparent-thumb.png",
     "price": "$100.00"
@@ -28,6 +33,16 @@
   "air-jordan-1-zoom-nike-blue2": {
     "name": "NIKE LATEST",
     "img": "https://www.freepngimg.com/thumb/shoes/26230-6-nike-shoes-clipart-thumb.png",
+    "price": "$100.00"
+  },
+  "jordan-mars-270": {
+    "name": "JORDAN MARS 270 LONDON",
+    "img": "https://www.freepngimg.com/thumb/shoes/21849-6-dock-shoes.png",
+    "price": "$100.00"
+  },
+  "jordan-1-zoom-racer-blue": {
+    "name": "RACER BLUE",
+    "img": "https://www.freepngimg.com/thumb/shoes/26170-4-vector-shoes-image.png",
     "price": "$100.00"
   }
 }
