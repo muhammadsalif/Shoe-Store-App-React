@@ -18,18 +18,29 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     marginTop: "2rem",
     display: "flex",
-    flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
     width: "50%",
     height: "20rem",
     transition: "0.3s linear",
+    color: "black",
+  },
+  details: {
+    display: "flex",
+    justifyContent: "space-between",
+    flexDirection: "column",
+    height: "70%",
+  },
+  button: {
+    backgroundColor: "#3F51B5",
+    padding: "5px",
+    color: "white",
+    transition: "0.3s ease-in-out",
+    border: "none",
+    fontSize: "2rem",
     "&:hover": {
-      backgroundColor: "#3F51B5",
-      color: "white",
+      backgroundColor: "#DC004E",
       cursor: "pointer",
-      width: "51%",
-      height: "21rem",
     },
   },
   image: {
@@ -45,9 +56,17 @@ export function ProductItem() {
   return (
     <div className={classes.root}>
       <Paper className={classes.paper} elevation={3}>
-        <h2>{Shoes[id].name}</h2>
         <img className={classes.image} src={Shoes[id].img} alt="" />
-        <h2>{Shoes[id].price}</h2>
+        <div className={classes.details}>
+          <h2>{Shoes[id].name}</h2>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            numquam, voluptates velit temporibus sit?
+          </p>
+          <hr />
+          <button className={classes.button}>{Shoes[id].price}</button>
+        </div>
       </Paper>
     </div>
   );
