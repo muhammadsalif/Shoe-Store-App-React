@@ -19,11 +19,11 @@ const useStyles = makeStyles((theme) => ({
     textDecoration: "none",
     fontSize: "1.5rem",
     padding: "0.5rem 1rem 0.5rem 1rem",
-    transition: "0.5s linear",
+    transition: "0.3s linear",
     marginRight: "1rem",
-    borderRadius: "30%",
+    borderRadius: "5%",
     "&:hover": {
-      backgroundColor: "#0A82D2",
+      backgroundColor: "#DC004E",
     },
   },
 }));
